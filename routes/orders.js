@@ -59,7 +59,7 @@ router.get('/:id', (req, res)  => {
                 on: 'u.id = o.user_id'
             }
         ])
-        .withFields(['o.id', 'p.title as name', 'p.description', 'p.price', 'u.username'])
+        .withFields(['o.id', 'p.title as name', 'p.description', 'p.price', 'u.username', 'p.image', 'od.quantity as quantityOrdered'])
         .filter({'o.id': ordersId})
         .getAll()
         .then( orders => {
@@ -97,7 +97,7 @@ router.post('/new', async (req, res,) => {
 
 
 
-                    let inCart = parseInt(p.incart);
+                    let inCart = parseInt(p.inCart);
 
                     // Deduct the number of pieces ordered from the quantity in database
 

@@ -36,7 +36,9 @@ router.get('/', function(req, res) {
           'p.title as name',
           'p.price',
           'p.image',
-          'p.id'
+          'p.id',
+          'p.description',
+          'p.quantity'
       ])
       .slice(startValue, endValue)
       .sort({id: .1})
@@ -76,12 +78,14 @@ router.get('/:prodId', function (req, res) {
             on: 'c.id = p.cat_id'
         }])
         .withFields([
+            'p.id',
             'c.title as category',
             'p.title as name',
             'p.price',
+            'p.quantity',
             'p.image',
             'p.images',
-            'p.id'
+            'p.description'
         ])
         .filter({
             'p.id' : productId
@@ -129,11 +133,13 @@ router.get('/category/:catName', function(req, res){
             on: `c.id = p.cat_id WHERE c.title LIKE  '%${ cat_title }%' `
         }])
         .withFields([
+            'p.id',
             'c.title as category',
             'p.title as name',
             'p.price',
-            'p.image',
-            'p.id'
+            'p.quantity',
+            'p.description',
+            'p.image'
         ])
         .slice(startValue, endValue)
         .sort({id: .1})
