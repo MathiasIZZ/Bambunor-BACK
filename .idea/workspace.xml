@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dadb5ae-1e51-47f0-bbd5-f528fa408bf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,13 @@
       <workItem from="1606122093511" duration="184000" />
       <workItem from="1606213386705" duration="753000" />
       <workItem from="1606217451438" duration="2025000" />
-      <workItem from="1606236037230" duration="2137000" />
+      <workItem from="1606236037230" duration="2795000" />
+      <workItem from="1606292431034" duration="1945000" />
+      <workItem from="1606316783363" duration="997000" />
+      <workItem from="1606378092252" duration="941000" />
+      <workItem from="1606389063102" duration="327000" />
+      <workItem from="1606817529346" duration="15000" />
+      <workItem from="1607176673656" duration="1162000" />
     </task>
     <servers />
   </component>
@@ -92,9 +98,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603108002640" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1603182807451">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606380006190">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1606380006190" />
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1603182807451" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1603108642834">
       <screen x="0" y="0" width="1920" height="1050" />
